@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://blog.kathylu.com',
+        url: 'ec2-54-164-83-31.compute-1.amazonaws.com',
         mail: {},
         database: {
             client: 'sqlite3',
