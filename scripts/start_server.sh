@@ -1,4 +1,4 @@
 #!/bin/bash
 grunt init
 grunt prod
-npm start --production
+NODE_ENV=production forever start index.js
